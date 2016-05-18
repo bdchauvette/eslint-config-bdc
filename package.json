@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-bdc",
+  "version": "1.0.0",
+  "description": "Personal eslint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --config eslintrc.js eslintrc.js plugins",
+    "test": "tape test/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdchauvette/eslint-config-bdc.git"
+  },
+  "author": "Ben Chauvette <bdchauvette@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bdchauvette/eslint-config-bdc/issues"
+  },
+  "homepage": "https://github.com/bdchauvette/eslint-config-bdc#readme",
+  "peerDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-plugin-import": "^1.8.0"
+  },
+  "devDependencies": {
+    "eslint-find-rules": "^1.9.2",
+    "merge": "^1.2.0",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "require-all": "^2.0.0"
+  }
+}
