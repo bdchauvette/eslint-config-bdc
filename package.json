@@ -23,10 +23,10 @@
   },
   "devDependencies": {
     "eslint-find-rules": "^1.9.2",
-    "merge": "^1.2.0",
     "tape": "^4.5.1"
   },
   "dependencies": {
+    "merge": "^1.2.0",
     "require-all": "^2.0.0"
   }
 }
