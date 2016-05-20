@@ -49,7 +49,9 @@ module.exports = {
 
     // this option sets a specific tab width for your code
     // http://eslint.org/docs/rules/indent
-    'indent': ['error', 2],
+    'indent': ['error', 2, {
+      'SwitchCase': 1,
+    }],
 
     // specify whether double or single quotes should be used in JSX attributes
     // http://eslint.org/docs/rules/jsx-quotes
