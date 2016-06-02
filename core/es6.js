@@ -2,12 +2,12 @@
 
 module.exports = {
   'rules': {
-        // enforces no braces where they can be omitted
+    // enforces no braces where they can be omitted
     // http://eslint.org/docs/rules/arrow-body-style
-    'arrow-body-style': [2, 'as-needed'],
+    'arrow-body-style': 0,
 
     // require parens in arrow function arguments
-    'arrow-parens': 0,
+    'arrow-parens': [2, 'always'],
 
     // require space before/after arrow function's arrow
     // http://eslint.org/docs/rules/arrow-spacing
