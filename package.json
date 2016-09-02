@@ -18,10 +18,11 @@
   },
   "homepage": "https://github.com/bdchauvette/eslint-config-bdc#readme",
   "peerDependencies": {
-    "eslint": "^2.10.2",
+    "eslint": "^3.4.0",
     "eslint-plugin-import": "^1.8.0"
   },
   "devDependencies": {
+    "eslint": "^3.4.0",
     "eslint-find-rules": "^1.9.2",
     "tape": "^4.5.1"
   },
